@@ -3,5 +3,16 @@
 }
 
 body {
+
   background-color: lightcyan;
+}
+header, footer {
+  text-align: center;
+
+}
+img {
+  max-width: 400px;
+}
+article {
+  text-align: center;
 }

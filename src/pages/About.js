@@ -14,11 +14,12 @@ function About(props) {
   useEffect(() => getAboutData(), [])
   
   const loaded = () => (
-    <div>
+    <article>
       <h2>{about.name}</h2>
       <h3>{about.email}</h3>
+      <img src={about.headshot}/>
       <p>{about.bio}</p>
-    </div>
+    </article>
   )
   
   
