@@ -5,7 +5,7 @@ function About(props) {
 
   const getAboutData = async () => {
     const response = await fetch(props.URL + "about")
-
+    console.log("get about data ran")
     const data = await response.json();
 
     setAbout(data)
